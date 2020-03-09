@@ -1,0 +1,12 @@
+<script>
+const url = "108.20.27.141:12345";
+const options = {
+  headers: {
+    Authorization: "Bearer 6Q************"
+  }
+};
+
+fetch(url, options)
+  .then( res => res.json() )
+  .then( data => console.log(data) );
+</script>
